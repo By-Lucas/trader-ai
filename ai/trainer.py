@@ -21,7 +21,7 @@ class TradeModelTrainer:
         df = df[df["order_result_status"].isin(["WIN", "LOSS"])]
 
         df["amount"] = df["amount"].str.replace(",", ".", regex=False).astype(float)
-        df["open_time"] = pd.to_datetime(df["open_time"])  # usamos open_time
+        df["open_time"] = pd.to_datetime(df["open_time"])
         df["hour"] = df["open_time"].dt.hour
         df["minute"] = df["open_time"].dt.minute
         df["target"] = df["order_result_status"].map({"WIN": 1, "LOSS": 0})
