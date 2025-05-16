@@ -5,12 +5,12 @@ ai = TradeEntryAI()
 
 # Lista de trades simulados
 trades = [
-    {"hora": 22,  "minuto": 55,  "direcao": "BUY", "par": "AUDCAD_otc", "valor": 50.0},
-    {"hora": 22,  "minuto": 55,  "direcao": "BUY", "par": "GBPUSD_otc", "valor": 50.0},
-    {"hora": 22,  "minuto": 56,  "direcao": "SELL", "par": "AUDCHF_otc", "valor": 50.0},
-    {"hora": 22,  "minuto": 56,  "direcao": "SELL", "par": "EURCAD_otc", "valor": 50.0},
-    {"hora": 22,  "minuto": 56,  "direcao": "BUY", "par": "EURUSD_otc", "valor": 50.0},
-    {"hora": 22,  "minuto": 56,  "direcao": "BUY", "par": "EURJPY_otc", "valor": 50.0},
+    {"hora": 9,  "minuto": 55,  "direcao": "SELL", "par": "AUDCAD", "valor": 50.0},
+    {"hora": 9,  "minuto": 55,  "direcao": "BUY", "par": "GBPUSD", "valor": 50.0},
+    {"hora": 9,  "minuto": 56,  "direcao": "SELL", "par": "AUDCHF", "valor": 50.0},
+    {"hora": 9,  "minuto": 56,  "direcao": "BUY", "par": "EURCAD", "valor": 50.0},
+    {"hora": 9,  "minuto": 56,  "direcao": "SELL", "par": "EURUSD", "valor": 50.0},
+    {"hora": 9,  "minuto": 56,  "direcao": "BUY", "par": "EURJPY", "valor": 50.0},
 ]
 
 # Testar cada trade na IA
